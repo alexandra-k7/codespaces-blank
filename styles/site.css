@@ -1,0 +1,677 @@
+/* General Page Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 1200px;
+    /* Constrain content width */
+    margin: 0 auto;
+    /* Center content */
+    padding: 20px;
+    /* Add spacing around the main content */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+    /* Space between sections */
+    padding: 20px 0;
+    /* Internal section padding */
+    text-align: center;
+    /* Center align for better readability */
+}
+
+/* Text Blocks */
+.about p,
+.explore p,
+.events p {
+    max-width: 800px;
+    /* Constrain text width for readability */
+    margin: 10px auto;
+    /* Center text */
+}
+
+/* Buttons */
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    /* Align buttons in the center */
+    gap: 20px;
+    /* Add spacing between buttons */
+    margin-top: 20px;
+    /* Add space above the buttons */
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    padding: 15px 30px;
+    /* Larger button size */
+    font-size: 18px;
+    /* Increase button text size */
+    background-color: #800000;
+    /* Consistent wine-red color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #a52a2a;
+    /* Slightly lighter hover color */
+}
+
+/* Add margin to buttons */
+.btn {
+    margin-top: 20px;
+    /* Add space above the buttons */
+    margin-bottom: 20px;
+    /* Add space below the buttons */
+}
+
+/* Add space between text and buttons in the CTA section */
+.cta h3,
+.cta p {
+    margin-bottom: 20px;
+    /* Add space below the text */
+}
+
+/* Ensure the container has enough space */
+.cta-buttons {
+    margin-top: 20px;
+    /* Add space above the button container */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2E0D3;
+    /* Light beige background */
+    color: #333;
+    /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6b2a2a;
+    /* Rich wine red background for the navbar */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* Center the logo and title horizontally */
+    align-items: center;
+    /* Center the logo and title vertically */
+    flex-direction: column;
+    /* Stack logo and title vertically */
+    width: 100%;
+    /* Make sure the navbar spans the entire width */
+}
+
+/* Logo and Title Styles */
+.navbar .logo {
+    display: flex;
+    flex-direction: column;
+    /* Stack logo and title vertically */
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: center;
+    /* Ensure it centers vertically */
+}
+
+.navbar .logo h1 {
+    margin-left: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+/* Optional: To add space between the logo and title */
+.navbar .logo img {
+    margin-bottom: 10px;
+}
+
+/* Hero Section - Full Width with Orange Background */
+.hero {
+    width: 100%;
+    /* Make sure it takes up the full width */
+    background-color: #D57C4A;
+    /* Hero section background color */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2E0D3;
+    /* Light beige background */
+    color: #333;
+    /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6b2a2a;
+    /* Rich wine red background for the navbar */
+    color: white;
+    padding: 20px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo Styling */
+.navbar .logo img {
+    height: auto;
+    max-height: 45%;
+    /* Adjust to your preferred size */
+    width: auto;
+    max-width: 45%;
+    /* Adjust width if necessary */
+}
+
+.navbar .logo h1 {
+    margin-left: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.navbar .hamburger {
+    display: none;
+    /* Hide the hamburger by default */
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-color: #D57C4A;
+    /* Muted wine color for hero section */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #6b2a2a;
+    /* Red button color */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background-color: #B65552;
+    /* Slightly darker red on hover */
+}
+
+/* Main content area */
+.main {
+    width: 100%;
+    /* Make sure the main content area spans the entire width */
+    padding: 0 20px;
+    /* Optional: padding around content */
+    box-sizing: border-box;
+    /* Include padding in the total width calculation */
+}
+
+
+
+/* Content sections */
+.act-content {
+    width: 100%;
+    /* Ensure this container spans the full width */
+    max-width: 100%;
+    /* Ensure no maximum width is limiting it */
+    padding: 0 20px;
+    /* Optional: some padding around content */
+    box-sizing: border-box;
+    /* Prevent padding from affecting width */
+}
+
+section {
+    align-items: center;
+}
+
+.act-content section {
+    width: 100%;
+    /* Ensure sections take up full width */
+    padding: 20px;
+    /* Padding inside sections */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Space between sections */
+    background-color: #fff;
+    /* Optional: background color */
+    border-radius: 8px;
+    /* Optional: rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: shadow for depth */
+}
+
+.act-content h2 {
+    font-size: 28px;
+    color: #6b2a2a;
+    margin-bottom: 15px;
+}
+
+.act-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.act-content .btn {
+    background-color: #D57C4A;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.act-content .btn:hover {
+    background-color: #B65552;
+}
+
+
+/* Footer */
+footer {
+    background-color: #6b2a2a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .navbar nav ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger-nav {
+        display: none;
+    }
+
+    .hamburger-button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20px;
+        width: 30px;
+    }
+
+    .hamburger-button span {
+        background-color: white;
+        height: 3px;
+        width: 100%;
+    }
+}
+
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #6b2a2a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+    /* Ensure hero section spans the full width */
+    background-color: #D57C4A;
+    /* Color for the hero background */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero {
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #e5c8a0;
+    color: #6b2a2a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.intro,
+.regions,
+.survey {
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    background-color: #6b2a2a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.fit-width {
+    max-width: 200px;
+    height: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #4d4d4d;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    /* Light beige background */
+}
+
+/* Container for Centralized Content */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.act-content section {
+    width: 100%;
+    /* Ensure the sections span the full width */
+    padding: 20px;
+    /* You can adjust padding to make it look nice */
+    background-color: white;
+    /* Optional: background color for the sections */
+    border-radius: 8px;
+    /* Optional: rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: shadow for depth */
+    margin-bottom: 20px;
+    /* Spacing between sections */
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #8b0000;
+    /* Deep red color for wine theme */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo a {
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    color: #ffcc00;
+    /* Gold hover effect */
+}
+
+nav .hamburger {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    nav .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #8b0000;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    nav .nav-links.active {
+        display: flex;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    nav .nav-links li {
+        margin: 10px 0;
+    }
+
+    nav .nav-links a {
+        font-size: 1.2rem;
+    }
+}
+
+/* Header Section */
+header {
+    background-image: url('https://via.placeholder.com/1200x600');
+    /* Wine-themed background image */
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    /* Dark overlay effect */
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #ff6666;
+    /* Wine red CTA button */
+    color: white;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cta-btn:hover {
+    background-color: #cc3333;
+    /* Darker red hover effect */
+}
+
+/* About Section */
+.about {
+    background-color: #fff5e6;
+    /* Light beige background for soft tone */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #8b0000;
+    /* Burgundy/red text */
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.about .cta-btn {
+    background-color: #8b0000;
+    /* Burgundy button */
+    color: white;
+}
+
+.about .cta-btn:hover {
+    background-color: #600000;
+    /* Darker red on hover */
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.1rem;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 12px 30px;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Survey | Find Your Perfect Winery</title>
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html"><img class="fit-width" src="images/winelogo.jpg" alt="Wine Logo"></a>
+            <h1>Explore Your Love For Wine</h1>
+        </div>
+
+        <!-- Hamburger Menu (for small screens) -->
+        <div class="hamburger">
+            <button class="hamburger-button hidden">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul class="nav-ul hamburger-nav hidden">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="survey.html">Find Your Winery</a></li>
+                    <li><a href="regions.html">Wine Regions</a></li>
+                    <li><a href="local.html">Find Local Wineries</a></li>
+                    <li><a href="events.html">Wine Events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="survey">
+        <section class="hero">
+            <h1>Wine Survey: Find Your Perfect Winery</h1>
+            <p>Take our short quiz to discover wineries that match your preferences.</p>
+        </section>
+
+        <section class="survey-form">
+            <h2>Survey Questions</h2>
+            <form action="#" method="POST" id="survey-form">
+                <label for="wine-preference">What type of wine do you prefer?</label><br>
+                <select id="wine-preference" name="wine-preference" required>
+                    <option value="">Select wine type</option>
+                    <option value="red">Red</option>
+                    <option value="white">White</option>
+                    <option value="rose">Rosé</option>
+                    <option value="sparkling">Sparkling</option>
+                    <option value="dessert">Dessert</option>
+                </select><br><br>
+
+                <label for="taste-preference">What's your preferred taste?</label><br>
+                <input type="radio" id="sweet" name="taste-preference" value="sweet">
+                <label for="sweet">Sweet</label><br>
+                <input type="radio" id="dry" name="taste-preference" value="dry">
+                <label for="dry">Dry</label><br>
+                <input type="radio" id="balanced" name="taste-preference" value="balanced">
+                <label for="balanced">Balanced</label><br><br>
+
+                <label for="region-preference">Do you prefer a particular wine region?</label><br>
+                <select id="region-preference" name="region-preference">
+                    <option value="">Select a region</option>
+                    <option value="napa">Napa Valley, USA</option>
+                    <option value="bordeaux">Bordeaux, France</option>
+                    <option value="tuscany">Tuscany, Italy</option>
+                    <option value="mendoza">Mendoza, Argentina</option>
+                    <option value="barossa">Barossa Valley, Australia</option>
+                    <option value="none">No preference</option>
+                </select><br><br>
+
+                <label for="travel-preference">How far are you willing to travel to visit a winery?</label><br>
+                <input type="radio" id="local" name="travel-preference" value="local">
+                <label for="local">Local (within 100 miles)</label><br>
+                <input type="radio" id="regional" name="travel-preference" value="regional">
+                <label for="regional">Regional (within 300 miles)</label><br>
+                <input type="radio" id="international" name="travel-preference" value="international">
+                <label for="international">International (worldwide)</label><br><br>
+
+                <label for="budget">What is your budget for a winery visit?</label><br>
+                <select id="budget" name="budget">
+                    <option value="">Select a budget range</option>
+                    <option value="cheap">Under $50</option>
+                    <option value="moderate">$50-$150</option>
+                    <option value="luxury">$150+</option>
+                </select><br><br>
+
+                <label for="group-size">How many people are you traveling with?</label><br>
+                <input type="number" id="group-size" name="group-size" min="1" max="20" value="1" required><br><br>
+
+                <button type="submit" class="btn">Get Recommendations</button>
+            </form>
+        </section>
+
+        <section class="survey-results" id="results">
+            <h2>Suggested Wineries</h2>
+            <p>Once you submit your answers, we'll provide personalized winery recommendations here!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wine Exploration. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
